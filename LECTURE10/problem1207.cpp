@@ -22,18 +22,6 @@ int main(){
     for (auto x=bharat.begin();x!=bharat.end();++x){
         // cout<< x->first<<endl;
         int count=0;
-        for (auto m=x;m!=bharat.end();++m){
-            cout<< m->second <<endl;
-            if (m->second==x->second)
-            {
-                count++;
-            }
-            
-            if(count>1){
-                return 0;
-            }
-        }
-        cout<<endl;
     }
     return 1;
 }
