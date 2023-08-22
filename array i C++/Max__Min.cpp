@@ -47,6 +47,8 @@ int main(){
     printinarray(size,numbers);
     int var=Max(size,numbers);
     cout<<"max is "<<var<<endl;
+    var = Min   (size,numbers);
+    cout<<"min is "<<var<<endl;
 
 
     return 0;
